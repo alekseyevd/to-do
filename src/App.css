@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+input[data-error="true"],
+textarea[data-error="true"] {
+  border: 1px solid red; 
+  outline: none;
+}
+thead td > span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+input, textarea {
+  width: 200px;
+  margin: 5px;
+}
